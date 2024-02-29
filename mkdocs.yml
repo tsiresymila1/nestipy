@@ -25,7 +25,10 @@ nav:
 #      - Sync ORM Application: sync_orm.md
 #      - Async ORM Application: async_orm.md
 #      - MongoDB Application: mongodb.md
-#  - API Reference:
+  - Dynamic Module:
+      - Create dynamic module : dynamic.md
+
+  - Available dynamic module: plugin.md
 #    - database: database.md
 #    - decorators: decorators.md
 #    - App: api.md
