@@ -9,20 +9,22 @@
       
       
       
+        <link rel="prev" href="../start/">
       
-        <link rel="next" href="start/">
+      
+        <link rel="next" href="../plugin/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
     
     
       
-        <title>Nestipy</title>
+        <title>Create dynamic module - Nestipy</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
       
       
 
@@ -41,11 +43,11 @@
       
     
     
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#create-a-dynamic-module" class="md-skip">
           Skip to content
         </a>
       
@@ -80,7 +82,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Nestipy" class="md-header__button md-logo" aria-label="Nestipy" data-md-component="logo">
+    <a href=".." title="Nestipy" class="md-header__button md-logo" aria-label="Nestipy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -100,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Create dynamic module
             
           </span>
         </div>
@@ -175,7 +177,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Nestipy" class="md-nav__button md-logo" aria-label="Nestipy" data-md-component="logo">
+    <a href=".." title="Nestipy" class="md-nav__button md-logo" aria-label="Nestipy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -190,30 +192,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Overview
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -222,113 +204,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Features">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#modular-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modular Architecture
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dependency-injection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dependency Injection
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorators" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decorators
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type-annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Annotations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dynamic-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dynamic module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-generation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Generation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contributing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contributing
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#credits" class="md-nav__link">
-    <span class="md-ellipsis">
-      Credits
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -375,7 +250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="start/" class="md-nav__link">
+      <a href="../start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -400,17 +275,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -424,7 +301,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Dynamic Module
@@ -435,10 +312,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="dynamic/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Create dynamic module
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -447,6 +342,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-dynamic-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create  a dynamic Module
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -466,7 +388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plugin/" class="md-nav__link">
+      <a href="../plugin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -496,8 +418,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -506,87 +426,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
+  <a href="#create-a-dynamic-module" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Features">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#modular-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modular Architecture
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dependency-injection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dependency Injection
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorators" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decorators
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type-annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Annotations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dynamic-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dynamic module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-generation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Generation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contributing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contributing
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#credits" class="md-nav__link">
-    <span class="md-ellipsis">
-      Credits
+      Create  a dynamic Module
     </span>
   </a>
   
@@ -607,30 +449,18 @@
                   
 
 
-<h1 id="overview">Overview</h1>
-<p>Nestipy is a Python framework built on top of Litestar or FastAPI hat follows the modular architecture of NestJS. It is designed to help structure your APIs  in an intuitive, easy to understand, and enjoyable way.</p>
-<p>With Nestipy, you can build scalable and maintainable APIs with ease. The framework supports dependency injection, type annotations, decorators, and code generation, making it easy to write clean and testable code.</p>
-<p>This framework is not a direct port of NestJS to Python but rather a re-imagining of the framework specifically for Python developers, including data scientists, data analysts, and data engineers. It aims to assist them in building better and faster APIs for their data applications.</p>
-<p>Nestipy support <b>Graphql</b> by using strawberry.</p>
-<h2 id="key-features">Key Features</h2>
-<h3 id="modular-architecture">Modular Architecture</h3>
-<p>Nestipy follows the modular architecture of NestJS, which allows for easy separation of concerns and code organization. Each module contains a collection of related controllers, services, and providers.</p>
-<h3 id="dependency-injection">Dependency Injection</h3>
-<p>Nestipy supports dependency injection, which makes it easy to manage dependencies and write testable code. You can easily inject services and providers into your controllers using decorators.</p>
-<h3 id="decorators">Decorators</h3>
-<p>Nestipy makes extensive use of decorators to define routes, middleware, and other application components. This helps keep the code concise and easy to read.</p>
-<h3 id="type-annotations">Type Annotations</h3>
-<p>Nestipy leverages Python's type annotations to provide better tooling and help prevent errors. You can annotate your controllers, services, and providers with types to make your code more robust.</p>
-<h3 id="dynamic-module">Dynamic module</h3>
-<p>Nestipy includes a dynamic module option that allow to create dynamic module that can access IOC container.</p>
-<h3 id="code-generation">Code Generation</h3>
-<p>Nestipy includes a code generation tool that can create boilerplate code for modules, controllers, and other components. This saves you time and helps you focus on writing the code that matters.</p>
-<h2 id="contributing">Contributing</h2>
-<p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
-<h2 id="credits">Credits</h2>
-<p><a href="https://nestjs.com/">NestJS</a>, a framework for building Node.js applications.</p>
-<p><a href="https://litestar.dev/">Litestar</a>, a framework for effortlessly build performant APIs.</p>
-<p><a href="https://fastapi.tiangolo.com/">FastAPI</a>, a framework for building Python applications.</p>
+  <h1>Create dynamic module</h1>
+
+<h2 id="create-a-dynamic-module">Create  a dynamic Module</h2>
+<p><strong>Nice to know</strong></p>
+<ol>
+<li>[x] A dynamic module must be decorated with <code>@Module()</code> and must extends <code>DynamicModule</code></li>
+<li>[x] Inside Dynamic module, we can access ioc container by <code>self.get_container()</code> and this container , inside property <code>instances</code> we can access to any instance of ModuleProvider or Service that we have declared in any Module.</li>
+<li>[x] <code>on_startup</code>, and <code>on_shutdown</code> hooks are available in any Module(Dynamic or Not)</li>
+<li>[x] We can define a provider by using <code>ModuleProvider</code> instance instead of create a service in Module.</li>
+<li>[x] All provider declared in <code>AppModule</code> are declared as Global Provider</li>
+<li>[x] Module is is compiled by its priority order of declaration in imports</li>
+</ol>
 
 
 
@@ -677,10 +507,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
     
   </body>
