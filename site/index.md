@@ -1,38 +1,13 @@
 # Overview
 
-Nestipy is a Python framework built on top of Litestar or FastAPI hat follows the modular architecture of NestJS. It is designed to help structure your APIs  in an intuitive, easy to understand, and enjoyable way.
+**Nestipy** is a Python framework inspired by NestJS and built on top of **Litestar** or **FastAPI**. It adheres to NestJS's modular architecture, offering a structured approach to developing APIs that's intuitive and enjoyable.
+With **Nestipy**, developers can create scalable and maintainable APIs effortlessly. The framework embraces key features like dependency injection, type annotations, decorators, and code generation, facilitating the creation of clean and testable codebases.
+While not a direct translation of NestJS to Python, **Nestipy** is tailored specifically for Python developers, including data scientists, analysts, and engineers. Its goal is to empower them in crafting robust and efficient APIs for their data-centric applications.
+Notably, **Nestipy** extends its functionality to support **GraphQL** through integration with **Strawberry**. This allows developers to harness the power and flexibility of GraphQL within the **Nestipy** framework.
 
-With Nestipy, you can build scalable and maintainable APIs with ease. The framework supports dependency injection, type annotations, decorators, and code generation, making it easy to write clean and testable code.
-
-This framework is not a direct port of NestJS to Python but rather a re-imagining of the framework specifically for Python developers, including data scientists, data analysts, and data engineers. It aims to assist them in building better and faster APIs for their data applications.
-
-Nestipy support <b>Graphql</b> by using strawberry.
-
-## Key Features
-### Modular Architecture
-
-Nestipy follows the modular architecture of NestJS, which allows for easy separation of concerns and code organization. Each module contains a collection of related controllers, services, and providers.
-
-### Dependency Injection
-Nestipy supports dependency injection, which makes it easy to manage dependencies and write testable code. You can easily inject services and providers into your controllers using decorators.
-
-### Decorators
-
-Nestipy makes extensive use of decorators to define routes, middleware, and other application components. This helps keep the code concise and easy to read.
-
-### Type Annotations
-
-Nestipy leverages Python's type annotations to provide better tooling and help prevent errors. You can annotate your controllers, services, and providers with types to make your code more robust.
 
 ### Dynamic module
-
-Nestipy includes a dynamic module option that allow to create dynamic module that can access IOC container.
-
-
-### Code Generation
-
-Nestipy includes a code generation tool that can create boilerplate code for modules, controllers, and other components. This saves you time and helps you focus on writing the code that matters.
-
+**Nestipy** introduces a dynamic module feature inspired by NestJS, allowing for the creation of modules with dynamic access to the Inversion of Control (IOC) container. This functionality mirrors NestJS's dynamic module behavior, enabling seamless interaction with dependencies registered in the IOC container. By leveraging this feature, developers can build highly adaptable architectures within Nestipy applications, fostering modularity and efficient resource management across the application. This empowers developers to craft scalable and maintainable solutions, aligning with the intuitive and powerful approach of NestJS dynamic modules.
 
 ## Contributing
 

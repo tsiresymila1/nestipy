@@ -10,7 +10,7 @@
       
       
       
-        <link rel="next" href="start/">
+        <link rel="next" href="start.html">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -24,11 +24,16 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
       
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
     
     
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
       
     
     
@@ -55,7 +60,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -80,10 +90,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Nestipy" class="md-header__button md-logo" aria-label="Nestipy" data-md-component="logo">
+    <a href="index.html" title="Nestipy" class="md-header__button md-logo" aria-label="Nestipy" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="images/nestipy.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,8 +116,8 @@
       </div>
     </div>
     
+      
     
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -175,10 +184,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Nestipy" class="md-nav__button md-logo" aria-label="Nestipy" data-md-component="logo">
+    <a href="index.html" title="Nestipy" class="md-nav__button md-logo" aria-label="Nestipy" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="images/nestipy.png" alt="logo">
 
     </a>
     Nestipy
@@ -213,7 +221,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="index.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -239,71 +247,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Features">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#modular-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modular Architecture
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dependency-injection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dependency Injection
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorators" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decorators
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type-annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Annotations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#dynamic-module" class="md-nav__link">
     <span class="md-ellipsis">
       Dynamic module
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-generation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Generation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -375,7 +323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="start/" class="md-nav__link">
+      <a href="start.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -438,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dynamic/" class="md-nav__link">
+      <a href="dynamic.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -466,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plugin/" class="md-nav__link">
+      <a href="plugin.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -506,71 +454,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Features">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#modular-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modular Architecture
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dependency-injection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dependency Injection
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorators" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decorators
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type-annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Annotations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#dynamic-module" class="md-nav__link">
     <span class="md-ellipsis">
       Dynamic module
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-generation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Generation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -608,23 +496,12 @@
 
 
 <h1 id="overview">Overview</h1>
-<p>Nestipy is a Python framework built on top of Litestar or FastAPI hat follows the modular architecture of NestJS. It is designed to help structure your APIs  in an intuitive, easy to understand, and enjoyable way.</p>
-<p>With Nestipy, you can build scalable and maintainable APIs with ease. The framework supports dependency injection, type annotations, decorators, and code generation, making it easy to write clean and testable code.</p>
-<p>This framework is not a direct port of NestJS to Python but rather a re-imagining of the framework specifically for Python developers, including data scientists, data analysts, and data engineers. It aims to assist them in building better and faster APIs for their data applications.</p>
-<p>Nestipy support <b>Graphql</b> by using strawberry.</p>
-<h2 id="key-features">Key Features</h2>
-<h3 id="modular-architecture">Modular Architecture</h3>
-<p>Nestipy follows the modular architecture of NestJS, which allows for easy separation of concerns and code organization. Each module contains a collection of related controllers, services, and providers.</p>
-<h3 id="dependency-injection">Dependency Injection</h3>
-<p>Nestipy supports dependency injection, which makes it easy to manage dependencies and write testable code. You can easily inject services and providers into your controllers using decorators.</p>
-<h3 id="decorators">Decorators</h3>
-<p>Nestipy makes extensive use of decorators to define routes, middleware, and other application components. This helps keep the code concise and easy to read.</p>
-<h3 id="type-annotations">Type Annotations</h3>
-<p>Nestipy leverages Python's type annotations to provide better tooling and help prevent errors. You can annotate your controllers, services, and providers with types to make your code more robust.</p>
+<p><strong>Nestipy</strong> is a Python framework inspired by NestJS and built on top of <strong>Litestar</strong> or <strong>FastAPI</strong>. It adheres to NestJS's modular architecture, offering a structured approach to developing APIs that's intuitive and enjoyable.
+With <strong>Nestipy</strong>, developers can create scalable and maintainable APIs effortlessly. The framework embraces key features like dependency injection, type annotations, decorators, and code generation, facilitating the creation of clean and testable codebases.
+While not a direct translation of NestJS to Python, <strong>Nestipy</strong> is tailored specifically for Python developers, including data scientists, analysts, and engineers. Its goal is to empower them in crafting robust and efficient APIs for their data-centric applications.
+Notably, <strong>Nestipy</strong> extends its functionality to support <strong>GraphQL</strong> through integration with <strong>Strawberry</strong>. This allows developers to harness the power and flexibility of GraphQL within the <strong>Nestipy</strong> framework.</p>
 <h3 id="dynamic-module">Dynamic module</h3>
-<p>Nestipy includes a dynamic module option that allow to create dynamic module that can access IOC container.</p>
-<h3 id="code-generation">Code Generation</h3>
-<p>Nestipy includes a code generation tool that can create boilerplate code for modules, controllers, and other components. This saves you time and helps you focus on writing the code that matters.</p>
+<p><strong>Nestipy</strong> introduces a dynamic module feature inspired by NestJS, allowing for the creation of modules with dynamic access to the Inversion of Control (IOC) container. This functionality mirrors NestJS's dynamic module behavior, enabling seamless interaction with dependencies registered in the IOC container. By leveraging this feature, developers can build highly adaptable architectures within Nestipy applications, fostering modularity and efficient resource management across the application. This empowers developers to craft scalable and maintainable solutions, aligning with the intuitive and powerful approach of NestJS dynamic modules.</p>
 <h2 id="contributing">Contributing</h2>
 <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
 <h2 id="credits">Credits</h2>
@@ -663,6 +540,18 @@
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
       Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/tsiresymila1/nestipy" target="_blank" rel="noopener" title="Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
     </a>
   
 </div>

@@ -1,15 +1,31 @@
 site_name: Nestipy
 docs_dir: site
+
+
 theme:
   name: material
+  palette:
+    primary: teal
+    accent: teal
+  font:
+    text: Roboto
+  logo: images/nestipy.png
   features:
     - content.code.copy
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/tsiresymila1/nestipy
+      name: Github
+
 extra_css:
   - stylesheets/extra.css
 
 plugins:
 - search
 - mkdocstrings
+- offline
 
 markdown_extensions:
   - pymdownx.highlight:

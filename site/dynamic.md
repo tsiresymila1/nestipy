@@ -1,6 +1,4 @@
-## Create  a dynamic Module
-
-**Nice to know**
+## Nice to know
 
 1. [x] A dynamic module must be decorated with `@Module()` and must extends `DynamicModule`
 2. [x] Inside Dynamic module, we can access ioc container by `self.get_container()` and this container , inside property `instances` we can access to any instance of ModuleProvider or Service that we have declared in any Module.
