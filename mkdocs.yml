@@ -45,6 +45,7 @@ nav:
       - Create dynamic module : dynamic.md
 
   - Available dynamic module: plugin.md
+  - SocketIo Gateway : gateway.md
 #    - database: database.md
 #    - decorators: decorators.md
 #    - App: api.md
