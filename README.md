@@ -14,7 +14,7 @@
 
 ## Deprecated 
 
-This project is moved to **[Nestipy](https://github.com/nestipy/nestipy)**
+This project was moved to **[Nestipy](https://github.com/nestipy/nestipy)**
 
 ## Description
 
