@@ -11,7 +11,9 @@
         <img src="https://img.shields.io/github/license/tsiresymila1/nestipy" alt="License">
     </a>
 </p>
+## Deprecated 
 
+This project is moved to **(Nestipy)[https://github.com/nestipy/nestipy]**
 ## Description
 
 <p>Nestipy is a Python framework built on top of Litestar that follows the modular architecture of NestJS</p>
