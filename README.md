@@ -24,10 +24,10 @@ This project was moved to **[Nestipy](https://github.com/nestipy/nestipy)**
 ## Getting started
 
 ```cmd
-    pip install nestipy
+    pip install nestipy-cli
     nestipy new my_app
     cd my_app
-    python main.py
+    nestipy start --dev
 ```
 
 ```
@@ -43,7 +43,9 @@ This project was moved to **[Nestipy](https://github.com/nestipy/nestipy)**
        
 ```
 
-## [Documentation](https://tsiresymila1.github.io/nestipy)
+## Documentation
+
+View full documentation [heere](https://nestipy.github.io/nestipy).
 
 ## Issues
 
