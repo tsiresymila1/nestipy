@@ -12,7 +12,7 @@
     </a>
 </p>
 
-## [!WARNING] Deprecated 
+## :warning: Deprecated 
 
 This project was moved to **[Nestipy](https://github.com/nestipy/nestipy)**
 
